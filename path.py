@@ -1,0 +1,9 @@
+import nnunet
+import pandas
+from nnunet.paths import network_training_output_dir, preprocessing_output_dir, default_plans_identifier,nnUNet_cropped_data,nnUNet_raw_data
+print(preprocessing_output_dir)
+print(network_training_output_dir)
+print(nnUNet_raw_data)
+print(nnUNet_cropped_data)
+
+import torch
