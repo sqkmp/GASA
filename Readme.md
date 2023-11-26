@@ -52,7 +52,7 @@ keep the preprocessing output folder
 change the output folder for trained model.
 ##### network_training_output_dir = "/orange/unet_data/nnUNet_trained_models/nnunet_qkv50d25"
 
-##### Inference
+# Inference
 
 ### python inference.py -i input_folder -o output_folder -t ID -m 3d_fullres --disable_mixed_precision
 
